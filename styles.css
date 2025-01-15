@@ -1,0 +1,418 @@
+/*This CSS style sheet was created on 02/08/23 by Evan Dean and is for my portfolio asssingment*/
+
+
+/*CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: 	#F0F8FF;
+}
+
+.center {
+	 margin-left: 25px;
+	 height: 400px;
+	 width: 300px;
+	 margin-top: 25px;
+	 
+}
+/*Included Mobile Design elements*/
+
+
+.mobile {
+	display: block;
+	font-size: 1.5em;
+	font-family: 'Gloock', serif;
+}
+
+.tablet-desktop {
+	display: block;
+}
+
+@media only screen and (max-width: 480px) {
+img {
+width: 100%;
+
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	background-color: black;
+	
+}
+}
+
+
+.mobile-nav {
+	border-radius: 15px;
+	text-align: center;
+	font-family: Roboto;
+}
+
+
+	
+
+/* Style rule for nav content*/
+nav {
+	background-color: black;
+	border-radius: 15px;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	background-color: black;
+	color: black;
+}
+
+nav li {
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: black;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a {
+	display: block;
+	background-color: black;
+	text-decoration: none;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+	color: white;
+}
+
+/*Class and ID styles*/
+.personal-info {
+	font-style: italic;
+	font-size: 1em;
+	font-family: source-sans-pro, times-new-roman;
+	font-weight: bold;
+}
+
+.contact-info {
+	text-align: center;
+	font-size: 1em;
+	font-family: open-sans-pro, arial;
+}
+
+a href {
+	text-decoration: none;
+}
+
+/*Style rule for header*/
+header {
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+	background-color: 	#F0F8FF;
+}
+
+header div {
+	color: black;
+	background-color: 	#F0F8FF;
+	border: 0;
+	
+}
+
+h1 {
+	color: black;
+	background-color: 	#F0F8FF;
+}
+
+h2 {
+	color: black;
+	background-color: 	#F0F8FF;
+}
+/*Style rules for main*/
+
+.certification {
+	height: 300px;
+	width: 300px;
+}
+
+.magna {
+	height: 250px;
+	width: 250px;
+}
+
+.honors {
+	height: 300px;
+	width: 300px;
+}
+
+
+.list-image3 {
+	 display: block; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 30%; 
+}	
+
+.brian {
+	height: 350px;
+	width: 250px;
+	margin-left: 25px;
+}
+
+.p-right {
+	text-align: right;
+	font-size: 1.5em;
+}
+
+.email-color {
+	color: white;
+}
+
+	
+main {
+	background-color: #F0F8FF;
+	color: black;
+}
+
+.same-line {
+	text-align: center;
+	float: right;
+	margin-right: 150px;
+	font-size: 2em;
+	margin-top: 217px;
+	font-style: italic;
+}
+
+
+main p {
+	font-size: 1em;
+	margin: 25px;
+	background-color: #F0F8FF;
+	color: black;
+	font-family: 'Gloock', serif;
+}
+
+article p {
+	font-style: italic;
+	font-family: 'Gloock', serif;
+}
+
+main h2 {
+	margin: 25px;
+	font-family: 'Gloock', serif;
+	font-size: 1.5em;
+}
+
+main aside {
+	font-family: 'Gloock', serif;
+	padding-top: 125px;
+	width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  margin-right: 15px;
+}
+
+main article {
+	font-family: 'Gloock', serif;
+	margin: 25px;
+}
+
+main li {
+	text-align: left;
+	margin: 25px;
+	text-decoration: none;
+	background-color: #F0F8FF;
+	color: black;
+} 
+
+main ul {
+	font-size: 1.25em;
+	background-color: 	#F0F8FF;
+	color: white;
+}
+
+main ol {
+	color: black;
+}
+
+/* style rule for footer*/
+
+footer {
+	color: white;
+	background-color: black;
+}
+footer p {
+	text-align: center;
+	font-size: 1em;
+	background-color: black;
+}
+
+footer a {
+	background-color: black;
+}
+
+@media screen and (min-width: 630px) {
+/* Tablet Viewport: Show tablet-desktop class, hide mobile class*/
+	
+	.tablet-desktop {
+		display: block;
+		font-family:'Gloock' serif;
+	}
+	
+	/*Style rules for forms*/
+	
+	form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ADD8E6;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    background-color: #4285f4;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #2a68b8;
+  }
+  
+  .form-message {
+  font-size: 16px;
+  color: green;
+  margin-top: 20px;
+}
+
+.form-message.error {
+  color: red;
+}
+
+	nav ul {
+		list-style-type: none;
+		text-align: center;
+		font-family: Roboto;
+	}
+	
+	nav li {
+		border-top: none;
+		display: inline-block;
+		border-right: 1px solid #fff;
+	}
+	
+	nav li a {
+		padding: 0.5em 1em;
+	}
+	
+	nav li a:hover {
+		color: #000;
+		background-color: #fff;
+	}
+		
+	h1 {
+		text-align: center;
+		background-color: black;
+		color: white;
+		font-size: 1.5em;
+	}
+
+	.mobile {
+		display: none;
+	}
+	
+	.grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	padding-bottom: 2%;
+	max-width: 100%;
+	height: auto;
+	object-fit: contain;
+	font-family: times-new-roman, sans-serif;
+	list-style-type: none;
+}
+}
+
+/*Media query for desktop viewports*/
+@media screen and (min-width: 1015px), print {
+	.mobile {
+		display: none;
+	}
+	.tablet-desktop {
+		display: block;
+		font-family: 'Gloock' serif;
+	}
+	
+	.grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	padding-bottom: 2%;
+	max-width: 100%;
+	height: auto;
+	object-fit: contain;
+	font-family: times-new-roman, sans-serif;
+	list-style-type: none;
+}
+	
+	a:visited {
+		color: #F0F8FF;
+	}
+	
+	nav ul {
+		text-align: center;
+		font-family: Roboto;
+		list-style-type: none;
+	}
+	
+	nav li {
+		border-top: none;
+		border: none;
+		display: inline-block;
+	}
+	
+	nav li a {
+		padding: 0.5em 1em;
+	}
+	
+	nav li a:hover {
+		color: #000;
+		background-color: #fff;
+	}
+		
+		
+}
+
+	
