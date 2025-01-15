@@ -91,6 +91,9 @@ nav li a {
 	color: white;
 }
 
+.name-link {
+	padding-right: 3em;
+}
 /*Class and ID styles*/
 .personal-info {
 	font-style: italic;
